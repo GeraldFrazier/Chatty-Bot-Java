@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: The conditional statement always has to contain the <b>else-branch</b>.
+- text: The result of an expression in the condition always has the <b>boolean</b>
+    type.
+- text: The construction <b>if ... else if ... else if ...</b> is possible in Java.
+- text: In the conditional statement, the keyword <b>then</b> is used;
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/1982#comment
+status: Failed
+feedback:
+  message: Answer choices will be shuffled next time.
+  time: Fri, 29 Jul 2022 03:36:28 UTC
+record: -1
+selected_options:
+- 0
+- 1
+- 2
+local_check: false

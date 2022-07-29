@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: scanner.nextWord()
+- text: scanner.next()
+- text: scanner.nextLine()
+- text: scanner.nextString()
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8303#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 28 Jul 2022 23:30:02 UTC
+record: -1
+selected_options:
+- 1
+local_check: false
